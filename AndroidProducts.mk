@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bangkk.mk
+    $(LOCAL_DIR)/infinity_bangkk.mk
