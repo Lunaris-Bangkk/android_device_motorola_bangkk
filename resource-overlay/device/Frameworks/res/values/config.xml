@@ -278,8 +278,6 @@
         <item>91</item> <!-- sensorRadius -->
     </integer-array>
 
-    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
-    <bool name="config_screen_off_udfps_enabled">true</bool>
     <!-- Whether this device is supporting the software microphone toggle -->
     <bool name="config_supportsMicToggle">true</bool>
 
