@@ -28,8 +28,10 @@ PRODUCT_PACKAGES += \
     ProductFrameworksResDevice \
     SettingsResDevice \
     SystemUIResDevice \
-    WifiResDevice \
-    InfinityUpdater
+    WifiResDevice
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -56,6 +58,10 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 $(call soong_config_set_bool,livedisplay_sysfs,enable_af,true)
+
+# Maintainer
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.lunaris.maintainer=Aryan S
 
 # NFC
 PRODUCT_PACKAGES += \
