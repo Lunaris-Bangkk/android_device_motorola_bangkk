@@ -26,3 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="bangkk_g-user 15 V1TCS35H.88-16-4 d201a-da14f release-keys MV-301" \
     BuildFingerprint=motorola/bangkk_g/bangkk:15/V1TCS35H.88-16-4/d201a-da14f:user/release-keys \
     DeviceProduct=bangkk_g
+
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
